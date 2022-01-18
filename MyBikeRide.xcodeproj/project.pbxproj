@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C82EFB2279686FA00F62CD4 /* MyBikeRideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C82EFB1279686FA00F62CD4 /* MyBikeRideApp.swift */; };
+		9C82EFB4279686FA00F62CD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C82EFB3279686FA00F62CD4 /* ContentView.swift */; };
+		9C82EFB6279686FD00F62CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C82EFB5279686FD00F62CD4 /* Assets.xcassets */; };
+		9C82EFB9279686FD00F62CD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C82EFB8279686FD00F62CD4 /* Preview Assets.xcassets */; };
+		9C82EFC3279686FE00F62CD4 /* MyBikeRideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C82EFC2279686FE00F62CD4 /* MyBikeRideTests.swift */; };
+		9C82EFCD279686FE00F62CD4 /* MyBikeRideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C82EFCC279686FE00F62CD4 /* MyBikeRideUITests.swift */; };
+		9C82EFCF279686FE00F62CD4 /* MyBikeRideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C82EFCE279686FE00F62CD4 /* MyBikeRideUITestsLaunchTests.swift */; };
+		9CDB32812796981E0013F372 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CDB32802796981E0013F372 /* GoogleService-Info.plist */; };
+		9CDB328427969ABC0013F372 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9CDB328327969ABC0013F372 /* FirebaseAnalytics */; };
+		9CDB328627969ABC0013F372 /* FirebaseAnalyticsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 9CDB328527969ABC0013F372 /* FirebaseAnalyticsSwift-Beta */; };
+		9CDB328827969ABC0013F372 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 9CDB328727969ABC0013F372 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		9CDB328A27969ABC0013F372 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 9CDB328927969ABC0013F372 /* FirebaseAppCheck */; };
+		9CDB328C27969ABC0013F372 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 9CDB328B27969ABC0013F372 /* FirebaseAppDistribution-Beta */; };
+		9CDB328E27969ABC0013F372 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9CDB328D27969ABC0013F372 /* FirebaseAuth */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C82EFBF279686FE00F62CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C82EFA6279686FA00F62CD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C82EFAD279686FA00F62CD4;
+			remoteInfo = MyBikeRide;
+		};
+		9C82EFC9279686FE00F62CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C82EFA6279686FA00F62CD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C82EFAD279686FA00F62CD4;
+			remoteInfo = MyBikeRide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C82EFAE279686FA00F62CD4 /* MyBikeRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBikeRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C82EFB1279686FA00F62CD4 /* MyBikeRideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBikeRideApp.swift; sourceTree = "<group>"; };
+		9C82EFB3279686FA00F62CD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C82EFB5279686FD00F62CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C82EFB8279686FD00F62CD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C82EFBE279686FE00F62CD4 /* MyBikeRideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBikeRideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C82EFC2279686FE00F62CD4 /* MyBikeRideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBikeRideTests.swift; sourceTree = "<group>"; };
+		9C82EFC8279686FE00F62CD4 /* MyBikeRideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBikeRideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C82EFCC279686FE00F62CD4 /* MyBikeRideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBikeRideUITests.swift; sourceTree = "<group>"; };
+		9C82EFCE279686FE00F62CD4 /* MyBikeRideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBikeRideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9CDB32802796981E0013F372 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C82EFAB279686FA00F62CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDB328A27969ABC0013F372 /* FirebaseAppCheck in Frameworks */,
+				9CDB328E27969ABC0013F372 /* FirebaseAuth in Frameworks */,
+				9CDB328627969ABC0013F372 /* FirebaseAnalyticsSwift-Beta in Frameworks */,
+				9CDB328C27969ABC0013F372 /* FirebaseAppDistribution-Beta in Frameworks */,
+				9CDB328827969ABC0013F372 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				9CDB328427969ABC0013F372 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C82EFBB279686FE00F62CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C82EFC5279686FE00F62CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C82EFA5279686FA00F62CD4 = {
+			isa = PBXGroup;
+			children = (
+				9C82EFB0279686FA00F62CD4 /* MyBikeRide */,
+				9C82EFC1279686FE00F62CD4 /* MyBikeRideTests */,
+				9C82EFCB279686FE00F62CD4 /* MyBikeRideUITests */,
+				9C82EFAF279686FA00F62CD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C82EFAF279686FA00F62CD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C82EFAE279686FA00F62CD4 /* MyBikeRide.app */,
+				9C82EFBE279686FE00F62CD4 /* MyBikeRideTests.xctest */,
+				9C82EFC8279686FE00F62CD4 /* MyBikeRideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C82EFB0279686FA00F62CD4 /* MyBikeRide */ = {
+			isa = PBXGroup;
+			children = (
+				9C82EFDC2796875A00F62CD4 /* View */,
+				9C82EFDB2796872C00F62CD4 /* ViewModel */,
+				9C82EFB1279686FA00F62CD4 /* MyBikeRideApp.swift */,
+				9C82EFB3279686FA00F62CD4 /* ContentView.swift */,
+				9C82EFB5279686FD00F62CD4 /* Assets.xcassets */,
+				9CDB32802796981E0013F372 /* GoogleService-Info.plist */,
+				9C82EFB7279686FD00F62CD4 /* Preview Content */,
+			);
+			path = MyBikeRide;
+			sourceTree = "<group>";
+		};
+		9C82EFB7279686FD00F62CD4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9C82EFB8279686FD00F62CD4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C82EFC1279686FE00F62CD4 /* MyBikeRideTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C82EFC2279686FE00F62CD4 /* MyBikeRideTests.swift */,
+			);
+			path = MyBikeRideTests;
+			sourceTree = "<group>";
+		};
+		9C82EFCB279686FE00F62CD4 /* MyBikeRideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C82EFCC279686FE00F62CD4 /* MyBikeRideUITests.swift */,
+				9C82EFCE279686FE00F62CD4 /* MyBikeRideUITestsLaunchTests.swift */,
+			);
+			path = MyBikeRideUITests;
+			sourceTree = "<group>";
+		};
+		9C82EFDB2796872C00F62CD4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9C82EFDC2796875A00F62CD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C82EFAD279686FA00F62CD4 /* MyBikeRide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C82EFD2279686FE00F62CD4 /* Build configuration list for PBXNativeTarget "MyBikeRide" */;
+			buildPhases = (
+				9C82EFAA279686FA00F62CD4 /* Sources */,
+				9C82EFAB279686FA00F62CD4 /* Frameworks */,
+				9C82EFAC279686FA00F62CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyBikeRide;
+			packageProductDependencies = (
+				9CDB328327969ABC0013F372 /* FirebaseAnalytics */,
+				9CDB328527969ABC0013F372 /* FirebaseAnalyticsSwift-Beta */,
+				9CDB328727969ABC0013F372 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				9CDB328927969ABC0013F372 /* FirebaseAppCheck */,
+				9CDB328B27969ABC0013F372 /* FirebaseAppDistribution-Beta */,
+				9CDB328D27969ABC0013F372 /* FirebaseAuth */,
+			);
+			productName = MyBikeRide;
+			productReference = 9C82EFAE279686FA00F62CD4 /* MyBikeRide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C82EFBD279686FE00F62CD4 /* MyBikeRideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C82EFD5279686FE00F62CD4 /* Build configuration list for PBXNativeTarget "MyBikeRideTests" */;
+			buildPhases = (
+				9C82EFBA279686FE00F62CD4 /* Sources */,
+				9C82EFBB279686FE00F62CD4 /* Frameworks */,
+				9C82EFBC279686FE00F62CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C82EFC0279686FE00F62CD4 /* PBXTargetDependency */,
+			);
+			name = MyBikeRideTests;
+			productName = MyBikeRideTests;
+			productReference = 9C82EFBE279686FE00F62CD4 /* MyBikeRideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C82EFC7279686FE00F62CD4 /* MyBikeRideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C82EFD8279686FE00F62CD4 /* Build configuration list for PBXNativeTarget "MyBikeRideUITests" */;
+			buildPhases = (
+				9C82EFC4279686FE00F62CD4 /* Sources */,
+				9C82EFC5279686FE00F62CD4 /* Frameworks */,
+				9C82EFC6279686FE00F62CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C82EFCA279686FE00F62CD4 /* PBXTargetDependency */,
+			);
+			name = MyBikeRideUITests;
+			productName = MyBikeRideUITests;
+			productReference = 9C82EFC8279686FE00F62CD4 /* MyBikeRideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C82EFA6279686FA00F62CD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9C82EFAD279686FA00F62CD4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					9C82EFBD279686FE00F62CD4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9C82EFAD279686FA00F62CD4;
+					};
+					9C82EFC7279686FE00F62CD4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9C82EFAD279686FA00F62CD4;
+					};
+				};
+			};
+			buildConfigurationList = 9C82EFA9279686FA00F62CD4 /* Build configuration list for PBXProject "MyBikeRide" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C82EFA5279686FA00F62CD4;
+			packageReferences = (
+				9CDB328227969ABC0013F372 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 9C82EFAF279686FA00F62CD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C82EFAD279686FA00F62CD4 /* MyBikeRide */,
+				9C82EFBD279686FE00F62CD4 /* MyBikeRideTests */,
+				9C82EFC7279686FE00F62CD4 /* MyBikeRideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C82EFAC279686FA00F62CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C82EFB9279686FD00F62CD4 /* Preview Assets.xcassets in Resources */,
+				9C82EFB6279686FD00F62CD4 /* Assets.xcassets in Resources */,
+				9CDB32812796981E0013F372 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C82EFBC279686FE00F62CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C82EFC6279686FE00F62CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C82EFAA279686FA00F62CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C82EFB4279686FA00F62CD4 /* ContentView.swift in Sources */,
+				9C82EFB2279686FA00F62CD4 /* MyBikeRideApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C82EFBA279686FE00F62CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C82EFC3279686FE00F62CD4 /* MyBikeRideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C82EFC4279686FE00F62CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C82EFCD279686FE00F62CD4 /* MyBikeRideUITests.swift in Sources */,
+				9C82EFCF279686FE00F62CD4 /* MyBikeRideUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C82EFC0279686FE00F62CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C82EFAD279686FA00F62CD4 /* MyBikeRide */;
+			targetProxy = 9C82EFBF279686FE00F62CD4 /* PBXContainerItemProxy */;
+		};
+		9C82EFCA279686FE00F62CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C82EFAD279686FA00F62CD4 /* MyBikeRide */;
+			targetProxy = 9C82EFC9279686FE00F62CD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9C82EFD0279686FE00F62CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C82EFD1279686FE00F62CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C82EFD3279686FE00F62CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyBikeRide/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marina.MyBikeRide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C82EFD4279686FE00F62CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyBikeRide/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marina.MyBikeRide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C82EFD6279686FE00F62CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marina.MyBikeRideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBikeRide.app/MyBikeRide";
+			};
+			name = Debug;
+		};
+		9C82EFD7279686FE00F62CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marina.MyBikeRideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBikeRide.app/MyBikeRide";
+			};
+			name = Release;
+		};
+		9C82EFD9279686FE00F62CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marina.MyBikeRideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyBikeRide;
+			};
+			name = Debug;
+		};
+		9C82EFDA279686FE00F62CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marina.MyBikeRideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyBikeRide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C82EFA9279686FA00F62CD4 /* Build configuration list for PBXProject "MyBikeRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C82EFD0279686FE00F62CD4 /* Debug */,
+				9C82EFD1279686FE00F62CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C82EFD2279686FE00F62CD4 /* Build configuration list for PBXNativeTarget "MyBikeRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C82EFD3279686FE00F62CD4 /* Debug */,
+				9C82EFD4279686FE00F62CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C82EFD5279686FE00F62CD4 /* Build configuration list for PBXNativeTarget "MyBikeRideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C82EFD6279686FE00F62CD4 /* Debug */,
+				9C82EFD7279686FE00F62CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C82EFD8279686FE00F62CD4 /* Build configuration list for PBXNativeTarget "MyBikeRideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C82EFD9279686FE00F62CD4 /* Debug */,
+				9C82EFDA279686FE00F62CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9CDB328227969ABC0013F372 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9CDB328327969ABC0013F372 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9CDB328227969ABC0013F372 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		9CDB328527969ABC0013F372 /* FirebaseAnalyticsSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9CDB328227969ABC0013F372 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAnalyticsSwift-Beta";
+		};
+		9CDB328727969ABC0013F372 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9CDB328227969ABC0013F372 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		9CDB328927969ABC0013F372 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9CDB328227969ABC0013F372 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		9CDB328B27969ABC0013F372 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9CDB328227969ABC0013F372 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		9CDB328D27969ABC0013F372 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9CDB328227969ABC0013F372 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9C82EFA6279686FA00F62CD4 /* Project object */;
+}
